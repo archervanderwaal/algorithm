@@ -1,13 +1,16 @@
-package me.stormma.lettcode;
+package me.stormma.leetcode;
 
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * two num sum question
+ */
 public class Question1 {
 
     static class Solution {
-        //时间复杂度 N  107ms
         int[] twoSum(int[] nums, int target) {
+            // 时间复杂度 N  107ms
             int[] result = new int[2];
             for (int i = 0; i < nums.length; i++) {
                 for (int j = 0; j < nums.length; j++) {
@@ -21,8 +24,8 @@ public class Question1 {
             return null;
         }
 
-        //时间复杂度 N 7ms 差距悬殊
         int[] twoSum2(int[] numbers, int target) {
+            // 时间复杂度 N 7ms 差距悬殊
             int[] result = new int[2];
             Map<Integer, Integer> map = new HashMap<>();
             for (int i = 0; i < numbers.length; i++) {
