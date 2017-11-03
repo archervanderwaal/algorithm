@@ -1,5 +1,7 @@
 package me.stormma.leetcode.dp;
 
+import java.io.IOException;
+
 /**
  * 难度系数: 2星
  * leetcode 3
@@ -13,6 +15,7 @@ public class Question3 {
             if (s == null || s.length() == 0) {
                 return 0;
             }
+
             int[] dp = new int[s.length()];
             dp[0] = 1;
             int max = dp[0];
@@ -27,8 +30,13 @@ public class Question3 {
             return max;
         }
 
-        public static void main(String[] args) {
-            System.out.println(new Solution().lengthOfLongestSubstring("abcabcabcbb"));
+        public static void main(String[] args) throws IOException {
+            //System.out.println(new Solution().lengthOfLongestSubstring("abcabcabcbb"));
+            int x = 1;
+            for (int i = 1; i <= 50; i++) {
+                x = (x + 15) % 50;
+                System.out.println(x);
+            }
         }
     }
 }
