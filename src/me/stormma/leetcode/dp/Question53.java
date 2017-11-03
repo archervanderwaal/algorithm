@@ -1,27 +1,39 @@
 package me.stormma.leetcode.dp;
 
 /**
- * 难度系数: 2星
- * leetcode 56 dp问题
- *
+ * leetcode 53最大子数组和问题 <a href="https://leetcode.com/problems/maximum-subarray/description/">题目链接</a>
  * @author stormma
- * @date 2017/10/22
+ * @date 2017/10/19
  */
 public class Question53 {
+
     static class Solution {
-        public int maxSubArray(int[] nums) {
-            int[] dp = new int [nums.length];
-            // dp[i] 表示以位置i结尾的最大子序列之和
-            // dp[0] = nums[0], dp[1] = max(dp[0] + nums[1], nums[1])... dp[i] = max(dp[i-1] + nums[i], nums[i])
-            dp[0] = nums[0];
-            int max = dp[0];
+        public static int maxSubArray(int[] nums) {
+            int sum = 0;
+            sum = nums[0];
             for (int i = 1; i < nums.length; i++) {
-                dp[i] = Math.max(dp[i - 1] + nums[i], nums[i]);
-                if (dp[i] > max) {
-                    max = dp[i];
+            }
+            return sum;
+        }
+    }
+
+    static class Solution1 {
+        public static int maxSubArray(int[] nums) {
+            int maxSum = Integer.MIN_VALUE;
+            for (int i = 0; i < nums.length; i++) {
+                int thisSum = 0;
+                for (int j = i; j < nums.length; j++) {
+                    thisSum += nums[j];
+                    if (maxSum < thisSum) {
+                        maxSum = thisSum;
+                    }
                 }
             }
-            return max;
+            return maxSum;
         }
+    }
+    public static void main(String[] args) {
+        int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
+        System.out.println(Solution1.maxSubArray(nums));
     }
 }
