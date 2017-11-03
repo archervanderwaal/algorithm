@@ -4,7 +4,7 @@
 ## leetcode
 |no | Title         | Tag           | Coefficient of difficulty|
 | - | ------------- | ------------- |-------------------|
-| 1 | [Two Sum](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/auestion1.java) | `Array` `HashTable` |      Easy |
+| 1 | [Two Sum](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question1.java) | `Array` `HashTable` |      Easy |
 | 2 | [Add Two Numbers](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/linkedlist/Question2.java) | `LinkedList` `Math`|  Medium |
 | 3 | [Longest Substring Without Repeating Characters](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dp/Question3.java) | `Hash Table` `Two Pointers` `String`| Medium |
 | 7 | [Reverse Integer](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/math/Question7.java) | `Math` | Easy |
