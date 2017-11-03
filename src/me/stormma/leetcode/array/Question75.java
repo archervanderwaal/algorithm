@@ -1,4 +1,4 @@
-package me.stormma.leetcode;
+package me.stormma.leetcode.array;
 
 /**
  * <p>荷兰国旗问题，<a href="https://leetcode.com/problems/sort-colors">题目链接</a></p>

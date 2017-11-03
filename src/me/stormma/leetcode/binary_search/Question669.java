@@ -1,4 +1,4 @@
-package me.stormma.leetcode;
+package me.stormma.leetcode.binary_search;
 
 /**
  * leetcode 669. 剪枝二叉查找树 <a href="https://leetcode.com/problems/trim-a-binary-search-tree">题目链接</a>

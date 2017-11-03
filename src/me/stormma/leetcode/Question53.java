@@ -1,7 +1,5 @@
 package me.stormma.leetcode;
 
-import java.util.Scanner;
-
 /**
  * leetcode 53最大子数组和问题 <a href="https://leetcode.com/problems/maximum-subarray/description/">题目链接</a>
  * @author stormma

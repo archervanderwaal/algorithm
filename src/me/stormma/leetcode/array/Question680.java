@@ -1,6 +1,5 @@
-package me.stormma.leetcode;
+package me.stormma.leetcode.array;
 
-import java.util.Set;
 
 /**
  * 难度系数: 2星

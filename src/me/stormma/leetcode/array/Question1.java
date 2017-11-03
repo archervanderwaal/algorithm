@@ -1,4 +1,4 @@
-package me.stormma.leetcode;
+package me.stormma.leetcode.array;
 
 import java.util.HashMap;
 import java.util.Map;
