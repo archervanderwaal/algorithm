@@ -17,5 +17,6 @@
 | 15| [3Sum](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/array) | `Array` `Two Pointers` | Medium |
 | 16| [3Sum Closest](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question16.java) | `Array` `Two Pointers` | Medium |
 | 18| [4Sum](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question18.java) |  `Array` `Two Pointers` | Medium |
+|136| [Single Number](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question136.java) | `Bit manipulation` | Easy |
 |461| [Hamming Distance](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question461.java) | `Bit manipulation` | Easy |
 |693| [Binary Number with Alternating Bits](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question693.java)) | `Bit manipulation` | Easy |
