@@ -7,7 +7,7 @@
 | 1 | [Two Sum](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question1.java) | `Array` `HashTable` |      Easy |
 | 2 | [Add Two Numbers](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/linkedlist/Question2.java) | `LinkedList` `Math`|  Medium |
 | 3 | [Longest Substring Without Repeating Characters](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dp/Question3.java) | `Hash Table` `Two Pointers` `String`| Medium |
-| 4 | [Median of Two Sorted Arrays](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question4.java)) | `Array` `Binary Search` `Divide Conquer` | Hard |
+| 4 | [Median of Two Sorted Arrays](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question4.java) | `Array` `Binary Search` `Divide Conquer` | Hard |
 | 7 | [Reverse Integer](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/math/Question7.java) | `Math` | Easy |
 | 8 | [String to Integer (atoi)](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/math/Question8.java) | `Math` `String` | Medium |
 | 9 | [Palindrome Number](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/math/Question9.java) | `Math` | Easy | 
