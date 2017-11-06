@@ -9,6 +9,7 @@
 | 3 | [Longest Substring Without Repeating Characters](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dp/Question3.java) | `Hash Table` `Two Pointers` `String`| Medium |
 | 4 | [Median of Two Sorted Arrays](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question4.java) | `Array` `Binary Search` `Divide Conquer` | Hard |
 | 7 | [Reverse Integer](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/math/Question7.java) | `Math` | Easy |
+| 6 | [ZigZag Conversion](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/string/Question6.java) | `String` | Medium |
 | 8 | [String to Integer (atoi)](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/math/Question8.java) | `Math` `String` | Medium |
 | 9 | [Palindrome Number](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/math/Question9.java) | `Math` | Easy | 
 | 11| [Container With Most Water](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question11.java) | `Array` `Two Pointers` | Medium |
