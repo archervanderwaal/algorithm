@@ -2,8 +2,9 @@
 > 一个假acmer的重拾算法之路
 
 ## leetcode
-|no | Title         | Tag           | Coefficient of difficulty|
-| - | ------------- | ------------- |-------------------|
+
+|no | Title | Tag | Coefficient of difficulty|
+| - | ----- | ----|-------------------|
 | 1 | [Two Sum](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question1.java) | `Array` `HashTable` |      Easy |
 | 2 | [Add Two Numbers](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/linkedlist/Question2.java) | `LinkedList` `Math`|  Medium |
 | 3 | [Longest Substring Without Repeating Characters](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dp/Question3.java) | `Hash Table` `Two Pointers` `String`| Medium |
