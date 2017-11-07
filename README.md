@@ -26,6 +26,7 @@
 | 20| [Valid Parentheses](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/string/Question20.java) | `String` `Stack` | Easy |
 | 21| [Merge Two Sorted Lists](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/linkedlist/Question21.java) | `LinkedList` | Easy |
 | 22| [Generate Parentheses](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/string/Question22.java) | `String` `BackTracking` | Medium |
+| 23| [Merge Kth Sorted Lists](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/linkedlist/Question23.java) | `LinkedList` `Divide Conquer` `Heap` | Hard |
 |136| [Single Number](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question136.java) | `Bit manipulation` | Easy |
 |169| [Majority Element](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/array/Question169.java) | `Array` `Bit manipulation` `Divide and Conquer` | Easy |
 |461| [Hamming Distance](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question461.java) | `Bit manipulation` | Easy |
