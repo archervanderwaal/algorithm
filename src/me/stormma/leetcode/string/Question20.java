@@ -15,10 +15,11 @@ public class Question20 {
     static class Solution {
         public boolean isValid(String s) {
             Stack<Character> stack = new Stack<>();
-            Map<Character, Character> map = new HashMap<>();
-            map.put('(', ')');
-            map.put('[', ']');
-            map.put('{', '}');
+            Map<Character, Character> map = new HashMap<Character, Character>(3) {{
+                put('(', ')');
+                put('[', ']');
+                put('{', '}');
+            }};
             for (char c : s.toCharArray()) {
                 if (map.containsKey(c)) {
                     stack.push(c);
