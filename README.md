@@ -29,6 +29,11 @@
 | 22| [Generate Parentheses](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/string/Question22.java) | `String` `BackTracking` | Medium |
 | 23| [Merge Kth Sorted Lists](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/linkedlist/Question23.java) | `LinkedList` `Divide Conquer` `Heap` | Hard |
 | 24| [Swap Nodes in Pairs](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/linkedlist/Question24.java) | `LinkedList` | Medium |
+| 25| [Reverse Nodes in k-Group](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/linkedlist/Question25.java) | `LinkedList` | Hard |
+| 26| [Remove Duplicates From Sorted Array](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question26.java) | `Array` `Two Pointers` | Easy |
+| 27| [Remove Element](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question27.java) | `Array` `Two Pointers` | Easy |
+| 28| [Implement strStr()](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/string/Question28.java) | `String` `Two Pointers` | Easy |
+| 29| [Divide Two Integers](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/math/Question29.java) | `Math` `Binary Search` | Medium |
 |136| [Single Number](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question136.java) | `Bit manipulation` | Easy |
 |169| [Majority Element](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/array/Question169.java) | `Array` `Bit manipulation` `Divide and Conquer` | Easy |
 |461| [Hamming Distance](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question461.java) | `Bit manipulation` | Easy |
