@@ -10,44 +10,35 @@ public class Question5 {
 
     static class Solution {
         static int longestSize = 0, startPos = 0;
+        String ans = "";
         public String longestPalindrome(String s) {
             if (s == null || s.length() == 1) {
                 return s;
             }
             for (int i = 0; i < s.length(); i++) {
-                checkOddPalindrome(s, i);
-                checkEvenPalindrome(s, i);
+                String tmp1 = check(s, i,i);
+                String tmp2 = check(s, i, i + 1);
+                if (ans.length() < Math.max(tmp1.length(), tmp2.length())) {
+                    ans = tmp1.length() >= tmp2.length() ? tmp1 : tmp2;
+                }
             }
-            return s.substring(startPos, startPos + longestSize);
+            return ans;
         }
 
-        private void checkOddPalindrome(String s, int index) {
-            // odd palindrome
-            int start = index, end = index;
-            while (start > 0 && end < s.length() - 1 && s.charAt(start - 1) == s.charAt(end + 1)) {
-                start--;
-                end++;
+        private String check(String s, int left, int right) {
+            while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
+                left--;
+                right++;
             }
-            // start -> end
-            if (end - start + 1 > longestSize) {
-                longestSize = end - start + 1;
-                startPos = start;
-            }
-        }
-
-        private void checkEvenPalindrome(String s, int index) {
-            int start = index, end = Math.min(s.length() - 1, index + 1);
-            while (start > 0 && end < s.length() - 1 && s.charAt(start - 1) == s.charAt(end + 1) && s.charAt(start) == s.charAt(end)) {
-                start--;
-                end++;
-            }
-
-            if (end - start + 1 > longestSize && s.charAt(start) == s.charAt(end)) {
-                longestSize = end - start + 1;
-                startPos = start;
-            }
+            // abac
+            // right = 3
+            // left = -1
+            // 3 + 1 = 4
+            return s.substring(left + 1, right);
         }
     }
+
+
 
     public static void main(String[] args) {
         System.out.println(new Solution().longestPalindrome("bb"));
