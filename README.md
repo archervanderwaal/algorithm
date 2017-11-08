@@ -34,6 +34,13 @@
 | 27| [Remove Element](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question27.java) | `Array` `Two Pointers` | Easy |
 | 28| [Implement strStr()](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/string/Question28.java) | `String` `Two Pointers` | Easy |
 | 29| [Divide Two Integers](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/math/Question29.java) | `Math` `Binary Search` | Medium |
+| 30| [Substring with Concatenation of All Words](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/string/Question30.java) | `String` `HashTable` `Two Pointers` | Hard |
+| 31| [Next Permutation](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question31.java) | `Array` | Medium |
+| 32| [Longest Valid Parentheses](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dp/Question32.java) | `String` `Dynamic Programming` | Medium |
+| 33| [Search in Rotated Sorted Array](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question33.java) | `Array` `Binary Search` | Medium |
+| 34| [Search for a Range](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question34.java) | `Array` `Binary Search` | Medium |
+| 35| [Search Insert Position](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/binary_search/Question35.java) | `Array` `Binary Search` | Easy |
+| 36| [Valid Sudoku](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/hash_table/Question36.java) | `Hash Table` | Medium |
 |136| [Single Number](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question136.java) | `Bit manipulation` | Easy |
 |169| [Majority Element](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/array/Question169.java) | `Array` `Bit manipulation` `Divide and Conquer` | Easy |
 |461| [Hamming Distance](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question461.java) | `Bit manipulation` | Easy |
