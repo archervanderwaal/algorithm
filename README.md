@@ -43,5 +43,6 @@
 | 36| [Valid Sudoku](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/hash_table/Question36.java) | `Hash Table` | Medium |
 |136| [Single Number](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question136.java) | `Bit manipulation` | Easy |
 |169| [Majority Element](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/array/Question169.java) | `Array` `Bit manipulation` `Divide and Conquer` | Easy |
+|198| [House Robber](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/dp/Question198.java) | `Dynamic Programming` | Easy |
 |461| [Hamming Distance](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question461.java) | `Bit manipulation` | Easy |
 |693| [Binary Number with Alternating Bits](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question693.java)) | `Bit manipulation` | Easy |
