@@ -44,6 +44,7 @@
 | 39| [Combination Sum](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question39.java) | `Array` `Backtracking` | Medium |
 | 46| [Permutation](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question46.java) | `Backtracking` | Medium |
 | 47| [Permutation II](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question47.java) | `Backtracking` `Array` | Medium |
+| 60| [Permutation Sequence](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question60.java) | `Backtracking` `Math` | Medium |
 |136| [Single Number](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question136.java) | `Bit manipulation` | Easy |
 |169| [Majority Element](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/array/Question169.java) | `Array` `Bit manipulation` `Divide and Conquer` | Easy |
 |198| [House Robber](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/dp/Question198.java) | `Dynamic Programming` | Easy |

@@ -14,7 +14,7 @@ public class Question46 {
     static class Solution {
         public List<List<Integer>> permute(int[] numbers) {
             List<List<Integer>> ans = new ArrayList<>();
-            dfs(ans, new ArrayList<>(), numbers, new boolean[numbers.length], 0);
+             dfs(ans, new ArrayList<>(), numbers, new boolean[numbers.length], 0);
             return ans;
         }
 
