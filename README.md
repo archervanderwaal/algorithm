@@ -41,6 +41,9 @@
 | 34| [Search for a Range](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question34.java) | `Array` `Binary Search` | Medium |
 | 35| [Search Insert Position](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/binary_search/Question35.java) | `Array` `Binary Search` | Easy |
 | 36| [Valid Sudoku](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/hash_table/Question36.java) | `Hash Table` | Medium |
+| 39| [Combination Sum](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question39.java) | `Array` `Backtracking` | Medium |
+| 46| [Permutation](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question46.java) | `Backtracking` | Medium |
+| 47| [Permutation II](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question47.java) | `Backtracking` `Array` | Medium |
 |136| [Single Number](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question136.java) | `Bit manipulation` | Easy |
 |169| [Majority Element](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/array/Question169.java) | `Array` `Bit manipulation` `Divide and Conquer` | Easy |
 |198| [House Robber](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/dp/Question198.java) | `Dynamic Programming` | Easy |
