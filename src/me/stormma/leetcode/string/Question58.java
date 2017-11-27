@@ -1,4 +1,4 @@
-package me.stormma.leetcode.array;
+package me.stormma.leetcode.string;
 
 /**
  * 难度系数 1星
