@@ -49,6 +49,7 @@
 | 60| [Permutation Sequence](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question60.java) | `Backtracking` `Math` | Medium |
 | 83| [Remove Duplicates from Sorted List](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/linkedlist/Question83.java) | `Linked List` | Easy |
 | 98| [Validate Binary Search Tree](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dfs/Question98.java) | `Tree` `Depth-First Search` | Medium |
+|100| [Same Tree](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dfs/Question100.java) | `Tree` `Depth-First Search` | Easy |
 |136| [Single Number](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question136.java) | `Bit manipulation` | Easy |
 |169| [Majority Element](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/array/Question169.java) | `Array` `Bit manipulation` `Divide and Conquer` | Easy |
 |198| [House Robber](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/dp/Question198.java) | `Dynamic Programming` | Easy |

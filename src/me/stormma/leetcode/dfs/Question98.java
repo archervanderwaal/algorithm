@@ -10,11 +10,11 @@ public class Question98 {
 
 
     static class Solution1 {
-        public boolean isValidBST(Question100.TreeNode root) {
+        public boolean isValidBST(TreeNode root) {
             return dfs(root, Long.MIN_VALUE, Long.MAX_VALUE);
         }
 
-        private boolean dfs(Question100.TreeNode node, Long minVal, Long maxVal) {
+        private boolean dfs(TreeNode node, Long minVal, Long maxVal) {
             if (node == null) {
                 return true;
             }

@@ -8,7 +8,7 @@ package me.stormma.leetcode.linkedlist;
  */
 public class Question83 {
 
-    static class Solution {
+    static class Solution1 {
         public ListNode deleteDuplicates(ListNode head) {
             ListNode node = head;
             int preVal = 0;
@@ -23,6 +23,20 @@ public class Question83 {
                 preVal = node.val;
                 preNode = node;
                 node = node.next;
+            }
+            return head;
+        }
+    }
+
+    static class Solution2 {
+        public ListNode deleteDuplicates(ListNode head) {
+            ListNode currentNode = head;
+            while (currentNode != null && currentNode.next != null) {
+                if (currentNode.val == currentNode.next.val){
+                    currentNode.next = currentNode.next.next;
+                } else {
+                    currentNode = currentNode.next;
+                }
             }
             return head;
         }
