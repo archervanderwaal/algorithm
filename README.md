@@ -44,7 +44,9 @@
 | 37| [Sudoku Solver](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dfs/Question37.java) | `Hash Table` `Backtracking` | Hard |
 | 39| [Combination Sum](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question39.java) | `Array` `Backtracking` | Medium |
 | 40| [Combination Sum II](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dfs/Question40.java) | `Array` `Backtracking` | Medium |
-| 41| [First Missing Positive](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question401.java) | `Array` | Hard |
+| 41| [First Missing Positive](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question41.java) | `Array` | Hard |
+| 42| [Trapping Rain Water](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question42.java) | `Array` `Two Pointers` `Stack` | Hard |
+| 43| [Multiply Strings](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/math/Question43.java) | `Math` `String` | Medium |
 | 46| [Permutation](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question46.java) | `Backtracking` | Medium |
 | 47| [Permutation II](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question47.java) | `Backtracking` `Array` | Medium |
 | 58| [Length of Last Word](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/string/Question58.java) | `String` | Easy |
