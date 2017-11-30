@@ -49,7 +49,8 @@
 | 43| [Multiply Strings](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/math/Question43.java) | `Math` `String` | Medium |
 | 46| [Permutation](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question46.java) | `Backtracking` | Medium |
 | 47| [Permutation II](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question47.java) | `Backtracking` `Array` | Medium |
-| 48| [Rotate Image ](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question48.java) | `Array` | Medium |
+| 48| [Rotate Image](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question48.java) | `Array` | Medium |
+| 49| [Group Anagrams](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/hash_table/Question49.java) | `Hash Table` `String` | Medium |
 | 58| [Length of Last Word](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/string/Question58.java) | `String` | Easy |
 | 60| [Permutation Sequence](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question60.java) | `Backtracking` `Math` | Medium |
 | 83| [Remove Duplicates from Sorted List](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/linkedlist/Question83.java) | `Linked List` | Easy |
