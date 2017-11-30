@@ -58,6 +58,7 @@
 |136| [Single Number](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question136.java) | `Bit manipulation` | Easy |
 |169| [Majority Element](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/array/Question169.java) | `Array` `Bit manipulation` `Divide and Conquer` | Easy |
 |198| [House Robber](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/dp/Question198.java) | `Dynamic Programming` | Easy |
+|242| [Valid Anagram](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/string/Question242.java) | `Hash Table` `Sort` | Easy |
 |461| [Hamming Distance](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question461.java) | `Bit manipulation` | Easy |
 |693| [Binary Number with Alternating Bits](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question693.java)) | `Bit manipulation` | Easy |
 |724| [Find Pivot Index](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question724.java)) | `Array` | Easy |
