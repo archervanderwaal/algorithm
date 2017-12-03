@@ -47,10 +47,12 @@
 | 41| [First Missing Positive](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question41.java) | `Array` | Hard |
 | 42| [Trapping Rain Water](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question42.java) | `Array` `Two Pointers` `Stack` | Hard |
 | 43| [Multiply Strings](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/math/Question43.java) | `Math` `String` | Medium |
+| 45| [Jump Game II](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question45.java) | `Array` `Greedy` | Medium |
 | 46| [Permutation](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question46.java) | `Backtracking` | Medium |
 | 47| [Permutation II](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question47.java) | `Backtracking` `Array` | Medium |
 | 48| [Rotate Image](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question48.java) | `Array` | Medium |
 | 49| [Group Anagrams](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/hash_table/Question49.java) | `Hash Table` `String` | Medium |
+| 55| [Jump Game](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question55.java) | `Array` `Greedy` | Medium |
 | 58| [Length of Last Word](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/string/Question58.java) | `String` | Easy |
 | 60| [Permutation Sequence](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question60.java) | `Backtracking` `Math` | Medium |
 | 83| [Remove Duplicates from Sorted List](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/linkedlist/Question83.java) | `Linked List` | Easy |
@@ -59,6 +61,7 @@
 |136| [Single Number](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question136.java) | `Bit manipulation` | Easy |
 |169| [Majority Element](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/array/Question169.java) | `Array` `Bit manipulation` `Divide and Conquer` | Easy |
 |198| [House Robber](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/dp/Question198.java) | `Dynamic Programming` | Easy |
+|215| [Kth Largest Element in an Array](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/array/Question215.java) | `Divide and Conquer` `Heap` | Medium |
 |242| [Valid Anagram](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/string/Question242.java) | `Hash Table` `Sort` | Easy |
 |461| [Hamming Distance](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question461.java) | `Bit manipulation` | Easy |
 |693| [Binary Number with Alternating Bits](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question693.java)) | `Bit manipulation` | Easy |
