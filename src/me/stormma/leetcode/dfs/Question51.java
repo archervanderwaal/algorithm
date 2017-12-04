@@ -16,16 +16,7 @@ public class Question51 {
         public List<List<String>> solveNQueens(int n) {
             boolean[][] map = new boolean[n][n];
             List<List<String>> ans = new ArrayList<>();
-            for (int c = 0; c < n; c++) {
-                map[0][c] = true;
-                List<String> tmp = new ArrayList<String>();
-                char[] array = new char[n];
-                Arrays.fill(array, '.');
-                array[c] = 'Q';
-                tmp.add(new String(array));
-                dfs(map, 1, ans, tmp, n);
-                map[0][c] = false;
-            }
+            dfs(map, 0, ans, new ArrayList<String>(), n);
             return ans;
         }
 
@@ -34,7 +25,6 @@ public class Question51 {
                 ans.add(new ArrayList<>(tmp));
                 return;
             }
-
             for (int c = 0; c < n; c++) {
                 boolean valid = true;
                 for (int r = 0; r < row; r++) {
