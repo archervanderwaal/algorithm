@@ -1,6 +1,7 @@
 package me.stormma.leetcode.dfs;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -13,17 +14,14 @@ public class Question51 {
 
     static class Solution {
         public List<List<String>> solveNQueens(int n) {
-            // map[i][j] represent i + 1 row j +1 column wheather have queen. if true yes, else no
             boolean[][] map = new boolean[n][n];
             List<List<String>> ans = new ArrayList<>();
             for (int c = 0; c < n; c++) {
                 map[0][c] = true;
                 List<String> tmp = new ArrayList<String>();
                 char[] array = new char[n];
-                for (int i = 0; i < n; i++) {
-                    if (i == c) array[i] = 'Q';
-                    else array[i] = '.';
-                }
+                Arrays.fill(array, '.');
+                array[c] = 'Q';
                 tmp.add(new String(array));
                 dfs(map, 1, ans, tmp, n);
                 map[0][c] = false;
@@ -37,16 +35,13 @@ public class Question51 {
                 return;
             }
 
-            // trivalse map
             for (int c = 0; c < n; c++) {
                 boolean valid = true;
-                // check column
                 for (int r = 0; r < row; r++) {
                     if (map[r][c]) {
                         valid = false;
                     }
                 }
-                // check row. finshed
                 int x = row, y = c;
                 while (valid && x > 0 && y > 0) {
                     if (map[--x][--y]) valid = false;
@@ -60,10 +55,8 @@ public class Question51 {
                 if (valid) {
                     map[row][c] = true;
                     char[] array = new char[n];
-                    for (int i = 0; i < n; i++) {
-                        if (i == c) array[i] = 'Q';
-                        else array[i] = '.';
-                    }
+                    Arrays.fill(array, '.');
+                    array[c] = 'Q';
                     tmp.add(new String(array));
                     dfs(map, row + 1, ans, tmp, n);
                     map[row][c] = false;
