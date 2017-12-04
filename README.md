@@ -53,6 +53,7 @@
 | 48| [Rotate Image](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question48.java) | `Array` | Medium |
 | 49| [Group Anagrams](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/hash_table/Question49.java) | `Hash Table` `String` | Medium |
 | 51| [N-Queens](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dfs/Question51.java) | `Backtracking` | Hard |
+| 52| [N-Queens II](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dfs/Question52.java) | `Backtracking` | Hard |
 | 55| [Jump Game](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question55.java) | `Array` `Greedy` | Medium |
 | 58| [Length of Last Word](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/string/Question58.java) | `String` | Easy |
 | 60| [Permutation Sequence](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question60.java) | `Backtracking` `Math` | Medium |
