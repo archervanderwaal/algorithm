@@ -70,6 +70,7 @@
 |104| [Maximum Depth of Binary Tree](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/tree/Question104.java) | `Tree` `Depth-First Search` | Easy |
 |108| [Convert Sorted Array to Binary Search Tree](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/tree/Question108.java) | `Tree` `Depth-First Search` | Easy |
 |110| [Balanced Binary Tree](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/tree/Question110.java) | `Tree` `Depth-First Search` | Easy |
+|112| [Path Sum](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dfs/Question112.java) | `Tree` `Depth-First Search` | Easy |
 |136| [Single Number](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question136.java) | `Bit manipulation` | Easy |
 |169| [Majority Element](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/array/Question169.java) | `Array` `Bit manipulation` `Divide and Conquer` | Easy |
 |198| [House Robber](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/dp/Question198.java) | `Dynamic Programming` | Easy |
