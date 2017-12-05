@@ -49,19 +49,17 @@ public class Question56 {
             int[] start = new int[n];
             int[] end = new int[n];
 
-            for(int i=0;i<n;i++){
+            for(int i = 0; i < n; i++){
                 start[i] = intervals.get(i).start;
                 end[i] = intervals.get(i).end;
             }
-
             Arrays.sort(start);
             Arrays.sort(end);
-
             List<Interval> ans = new ArrayList<>();
-            for(int i=0,startIter = 0;i<n;i++){
-                if(i == n-1 || end[i] < start[i+1]){
-                    ans.add(new Interval(start[startIter],end[i]));
-                    startIter = i+1;
+            for(int i = 0, startIter = 0; i < n; i++){
+                if(i == n - 1 || end[i] < start[i + 1]){
+                    ans.add(new Interval(start[startIter], end[i]));
+                    startIter = i + 1;
                 }
             }
             return ans;
