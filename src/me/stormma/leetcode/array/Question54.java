@@ -12,6 +12,9 @@ import java.util.List;
  * @date 2017/12/04
  */
 public class Question54 {
+    /**
+     * from me
+     */
     static class Solution1 {
         static List<Integer> ans = new ArrayList<>();
         public List<Integer> spiralOrder(int[][] matrix) {
@@ -38,6 +41,9 @@ public class Question54 {
         }
     }
 
+    /**
+     * from leetcode's discuss
+     */
     static class Solution2 {
         public List<Integer> spiralOrder(int[][] matrix) {
             List<Integer> res = new ArrayList<Integer>();
