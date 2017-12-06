@@ -10,7 +10,7 @@ import java.util.Arrays;
  * @author stormma
  */
 public class Question72 {
-    static class Solution {
+    static class Solution2 {
         public int minDistance(String word1, String word2) {
             // dp[i][j] 表示word1的前i个字符转换成word2的前j个字符需要操作次数
             int[][] dp = new int[word1.length() + 1][word2.length() + 1];
