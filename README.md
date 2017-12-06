@@ -64,6 +64,7 @@
 | 61| [Rotate List](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/linkedlist/Question61.java) | `LinkedList` `Two Pointers` | Medium |
 | 66| [Plus One](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/math/Question66.java) | `Array` `Math` | Easy |
 | 71| [Simplify Path](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/stack/Question71.java) | `String` `Stack` | Medium |
+| 72| [Edit Distance](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dp/Question72.java) | `String` `Dynamic Programming` | Hard |
 | 73| [Set Matrix Zeroes](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question73.java) | `Array` | Medium |
 | 83| [Remove Duplicates from Sorted List](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/linkedlist/Question83.java) | `Linked List` | Easy |
 | 88| [Merge Sorted Array](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question88.java) | `Array` `Two Pointer` | Easy |
