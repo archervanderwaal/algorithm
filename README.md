@@ -90,4 +90,5 @@
 |693| [Binary Number with Alternating Bits](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question693.java)) | `Bit manipulation` | Easy |
 |724| [Find Pivot Index](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question724.java) | `Array` | Easy |
 |725| [Split Linked List in Parts](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/linkedlist/Question725.java) | `Linked List` | Medium |
+|738| [Monotone Increasing Digits](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/greedy/Question739.java) | `Greedy` | Medium |
 |739| [Daily Temperatures](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/stack/Question739.java) | `Hash Table` `Array` | Medium |
