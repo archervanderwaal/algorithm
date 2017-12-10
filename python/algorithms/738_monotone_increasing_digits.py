@@ -6,4 +6,3 @@ class Solution:
         """
         if N <= 9:
             return N
-        
