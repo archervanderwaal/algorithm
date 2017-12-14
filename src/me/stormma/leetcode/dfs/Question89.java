@@ -58,7 +58,7 @@ public class Question89 {
             for(int i = 0; i < n; i++){
                 int size = ans.size();
                 for(int k = size - 1; k >= 0; k--) {
-                    // System.out.println(ans.get(k) + " | " + 1 + " << " + i + " = " + (ans.get(k) | 1 << i));
+//                     System.out.println(ans.get(k) + " | " + 1 + " << " + i + " = " + (ans.get(k) | 1 << i));
                     ans.add(ans.get(k) | 1 << i);
                 }
             }
