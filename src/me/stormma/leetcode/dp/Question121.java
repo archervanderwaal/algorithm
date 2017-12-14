@@ -2,6 +2,7 @@ package me.stormma.leetcode.dp;
 
 /**
  * 难度系数:2星
+ *
  * @author stormma
  * @date 2017/12/14
  */
@@ -9,7 +10,7 @@ public class Question121 {
 
     /**
      * Solution Function: Force Enumeration
-     * Running time O(n^2)  ans: TLE
+     * Running Time O(n^2)  => ans: TLE
      */
     static class Solution1 {
         public int maxProfit(int[] prices) {
@@ -30,7 +31,7 @@ public class Question121 {
 
     /**
      * Solution Function: Recursive
-     * Running Time O(n) ans: ACCEPTED
+     * Running Time O(n) => ans: ACCEPTED
      */
     static class Solution2 {
         public int maxProfit(int[] prices) {
@@ -46,6 +47,21 @@ public class Question121 {
                 }
             }
             return ans;
+        }
+    }
+
+    /**
+     * Solution Function: Kadane's Algorithm
+     * Running Time: O(n) => ans: ACCEPTED
+     */
+    static class Solution3 {
+        public int maxProfit(int[] prices) {
+            int maxCur = 0, maxSoFar = 0;
+            for (int i = 1; i < prices.length; i++) {
+                maxCur = Math.max(0, maxCur += prices[i] - prices[i - 1]);
+                maxSoFar = Math.max(maxCur, maxSoFar);
+            }
+            return maxSoFar;
         }
     }
 }
