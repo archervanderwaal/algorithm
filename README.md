@@ -74,6 +74,7 @@
 | 84| [Largest Rectangle in Histogram](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/stack/Question84.java) | `Stack` `Array` | Hard |
 | 88| [Merge Sorted Array](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question88.java) | `Array` `Two Pointer` | Easy |
 | 89| [Gray Code](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dfs/Question89.java) | `Backtracking` | Medium |
+| 94| [Binary Tree Inorder Traversal](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/tree/Question94.java) | `Hash Tabke` `Stack` `Tree` | Medium |
 | 98| [Validate Binary Search Tree](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dfs/Question98.java) | `Tree` `Depth-First Search` | Medium |
 |100| [Same Tree](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dfs/Question100.java) | `Tree` `Depth-First Search` | Easy |
 |104| [Maximum Depth of Binary Tree](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/tree/Question104.java) | `Tree` `Depth-First Search` | Easy |
