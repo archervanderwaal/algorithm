@@ -91,8 +91,10 @@
 |242| [Valid Anagram](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/string/Question242.java) | `Hash Table` `Sort` | Easy |
 |437| [Path Sum II](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/dfs/Question437.java) | `Tree` | Easy |
 |461| [Hamming Distance](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question461.java) | `Bit manipulation` | Easy |
+|494| [Target Sum](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dp/Question494.java) | `Dynamic Programing` `DFS` | Medium |
 |693| [Binary Number with Alternating Bits](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question693.java)) | `Bit manipulation` | Easy |
 |724| [Find Pivot Index](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question724.java) | `Array` | Easy |
 |725| [Split Linked List in Parts](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/linkedlist/Question725.java) | `Linked List` | Medium |
 |738| [Monotone Increasing Digits](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/greedy/Question739.java) | `Greedy` | Medium |
 |739| [Daily Temperatures](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/stack/Question739.java) | `Hash Table` `Array` | Medium |
+|766| [Toeplitz Matrix](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question766.java) | `Array` | Easy |
