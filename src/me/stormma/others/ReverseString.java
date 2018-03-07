@@ -1,5 +1,17 @@
 package me.stormma.others;
 
+/**
+ * 题目 给定字符串,
+ * 如:
+ *
+ * abcdef
+ * 前m个字符旋转到字符串尾部
+ *
+ * 变成
+ * cdefab
+ *
+ * 要求时间复杂度 O(n)空间复杂度O(1)
+ */
 public class ReverseString {
 
     public void reverseString(char[] str, int from, int to) {
