@@ -47,6 +47,16 @@ public class Combinations {
                 return;
             }
 
+            // start, k , m
+
+            // 0, 1, 7
+            // 1, 0, 6
+            // 1, 1, 7
+            // 2, 0, 5
+
+            // 1 2 3 4 5 6 7   m = 7
+            //
+
             for (int i = start; i <= n; i++) {
                 current.add(i);
                 dfs(k - 1, n, i + 1, ans, current);
