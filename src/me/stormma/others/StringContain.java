@@ -1,5 +1,7 @@
 package me.stormma.others;
 
+import java.util.Arrays;
+
 /**
  * 给定字符串A, B
  *
@@ -15,7 +17,6 @@ public class StringContain {
      * @return
      */
     public boolean contains1(String A, String B) {
-
         for (int i = 0; i < B.length(); i++) {
             boolean valid = false;
             for (int j = 0; j < A.length(); j++) {
@@ -45,7 +46,6 @@ public class StringContain {
                 res *= x;
             }
         }
-
         for (int i = 0; i < B.length(); i++) {
             int x = p[B.toCharArray()[i] - 'A'];
             if (res % x != 0) return false;
@@ -72,11 +72,28 @@ public class StringContain {
         return true;
     }
 
+    public boolean contains4(String A, String B) {
+        char[] a = A.toCharArray(), b = B.toCharArray();
+        Arrays.sort(a);
+        Arrays.sort(b);
+        for (int aI = 0, bI = 0; bI < b.length;) {
+            while (aI < a.length && a[aI] < b[bI]) {
+                aI++;
+            }
+            if (aI >= a.length || a[aI] > b[bI]) {
+                return false;
+            }
+            bI++;
+        }
+        return true;
+    }
+
     public static void main(String[] args) {
         String A = "ABCDEF";
         String B = "FAB";
         System.out.println(new StringContain().contains1(A, B));
         System.out.println(new StringContain().contains2(A, B));
         System.out.println(new StringContain().contains3(A, B));
+        System.out.println(new StringContain().contains4(A, B));
     }
 }
