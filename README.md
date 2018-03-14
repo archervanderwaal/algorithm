@@ -90,12 +90,12 @@
 |148| [Sort List](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/linkedlist/Question148.java) | `Linked List` `Sort` | Medium |
 |155| [Min Stack](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/stack/Question155.java) | `Stack` `Design` | Easy |
 |160| [Intersection of Two Linked Lists](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/linkedlist/Question160.java) | `LinkedList` | Easy |
-
 |169| [Majority Element](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/array/Question169.java) | `Array` `Bit manipulation` `Divide and Conquer` | Easy |
 |198| [House Robber](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/dp/Question198.java) | `Dynamic Programming` | Easy |
 |199| [Binary Tree Right Side View](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/dp/Question199.java) | `Tree` `DFS` `BFS` | Medium |
 |215| [Kth Largest Element in an Array](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/array/Question215.java) | `Divide and Conquer` `Heap` | Medium |
 |242| [Valid Anagram](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/string/Question242.java) | `Hash Table` `Sort` | Easy |
+|303| [Range Sum Query - Immutable](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/dp/Question303.java) | `Dynamic Programing` | Easy |
 |309| [Best Time to Buy and Sell Stock with Cooldown](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/dp/Question309.java) | `Dynamic Programing` | Medium |
 |437| [Path Sum II](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/dfs/Question437.java) | `Tree` | Easy |
 |461| [Hamming Distance](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question461.java) | `Bit manipulation` | Easy |
