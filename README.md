@@ -86,8 +86,8 @@
 |121| [Best Time to Buy and Sell Stock](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dp/Question121.java) | `Array` `Dynamic-Programming` | Easy |
 |125| [Valid Palindrome](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/string/Question125.java) | `String` `Two Pointers` | Easy |
 |130| [Surrounded Regions](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dfs/Question130.java) | `DFS` `BFS` `Union-Find` | Medium |
-
 |136| [Single Number](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question136.java) | `Bit manipulation` | Easy |
+|148| [Sort List](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/linkedlist/Question148.java) | `Linked List` `Sort` | Medium |
 |169| [Majority Element](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/array/Question169.java) | `Array` `Bit manipulation` `Divide and Conquer` | Easy |
 |198| [House Robber](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/dp/Question198.java) | `Dynamic Programming` | Easy |
 |199| [Binary Tree Right Side View](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/dp/Question199.java) | `Tree` `DFS` `BFS` | Medium |
