@@ -9,6 +9,8 @@ public class Question304 {
 
     /**
      * dp
+     * time: O(n * m)
+     * space: O(n * m)
      */
     static class NumMatrix {
 

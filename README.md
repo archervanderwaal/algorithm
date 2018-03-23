@@ -68,6 +68,7 @@
 | 73| [Set Matrix Zeroes](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question73.java) | `Array` | Medium |
 | 74| [Search a 2D Matrix](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question74.java) | `Array` `Binary Search` | Medium |
 | 77| [Combinations](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question77.java) | `Backtracking` | Medium |
+| 78| [Subsets](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question77.java) | `Backtracking` `Array` `Bit manipulation` | Medium
 | 79| [Word Search](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dfs/Question79.java) | `Array` `Backtracking` | Medium |
 | 80| [Remove Duplicates from Sorted Array II](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question80.java) | `Array` `Two Pointers` | Medium |
 | 83| [Remove Duplicates from Sorted List](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/linkedlist/Question83.java) | `Linked List` | Easy |
