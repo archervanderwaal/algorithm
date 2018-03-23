@@ -80,6 +80,7 @@
 |100| [Same Tree](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dfs/Question100.java) | `Tree` `Depth-First Search` | Easy |
 |104| [Maximum Depth of Binary Tree](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/tree/Question104.java) | `Tree` `Depth-First Search` | Easy |
 |105| [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/tree/Question105.java) | `Array` `Tree` `Depth-First Search` | Medium |
+|106| [Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/tree/Question106.java) | `Array` `Tree` `Depth-First Search` | Medium |
 |108| [Convert Sorted Array to Binary Search Tree](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/tree/Question108.java) | `Tree` `Depth-First Search` | Easy |
 |110| [Balanced Binary Tree](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/tree/Question110.java) | `Tree` `Depth-First Search` | Easy |
 |111| [Minimum Depth of Binary Tree ](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/tree/Question111.java) | `Tree` `Depth-First Search` `BFS`| Easy |
