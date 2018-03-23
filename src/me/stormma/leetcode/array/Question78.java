@@ -11,6 +11,11 @@ import java.util.List;
  */
 public class Question78 {
     static class Solution1 {
+        /**
+         * 时间复杂度 O(2^n *n)
+         * @param nums
+         * @return
+         */
         public List<List<Integer>> subsets(int[] nums) {
             List<List<Integer>> ans = new ArrayList<>();
             if (nums == null || nums.length == 0) return ans;
