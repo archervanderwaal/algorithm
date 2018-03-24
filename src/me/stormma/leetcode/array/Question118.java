@@ -15,7 +15,7 @@ public class Question118 {
     static class Solution {
         public List<List<Integer>> generate(int numRows) {
             List<List<Integer>> ans = new ArrayList<>();
-            if (numRows < 0) return ans;
+            if (numRows <= 0) return ans;
             ans.add(Arrays.asList(1));
             if (numRows == 1) return ans;
             ans.add(Arrays.asList(1, 1));
