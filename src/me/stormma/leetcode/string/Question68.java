@@ -11,40 +11,50 @@ import java.util.List;
  */
 public class Question68 {
 
+    /**
+     * time running: O(n)
+     * space: O(n)
+     */
     static class Solution {
         public List<String> fullJustify(String[] words, int maxWidth) {
             List<String> ans = new ArrayList<>();
             if (words == null || words.length == 0) return ans;
-            fullJustify(ans, words, 0, maxWidth);
+            int index = 0;
+            while (index < words.length) {
+                int last = index + 1, cnt = words[index].length();
+                while (last < words.length) {
+                    if (words[last].length() + cnt + 1 > maxWidth) break;
+                    cnt += words[last].length() + 1;
+                    last++;
+                }
+                StringBuilder builder = new StringBuilder();
+                builder.append(words[index]);
+                int diff = last - index - 1;
+                if (diff == 0 || last == words.length) {
+                    for (int i = index + 1; i < last; i++) {
+                        builder.append(" ").append(words[i]);
+                    }
+                    for (int i = builder.length(); i < maxWidth; i++) {
+                        builder.append(" ");
+                    }
+                } else {
+                    int spaces = (maxWidth - cnt) / diff;
+                    int remain = (maxWidth - cnt) % diff;
+                    for (int i = index + 1; i < last; i++) {
+                        for (int k = spaces; k > 0; k--) {
+                            builder.append(" ");
+                        }
+                        if (remain > 0) {
+                            builder.append(" ");
+                            remain--;
+                        }
+                        builder.append(" ").append(words[i]);
+                    }
+                }
+                ans.add(builder.toString());
+                index = last;
+            }
             return ans;
-        }
-
-        private void fullJustify(List<String> ans, String[] words, int wi, int maxWidth) {
-            if (wi >= words.length) return;
-            List<String> list = new ArrayList<>();
-            int tmp = maxWidth, ind = wi;
-            for (int i = wi; i < words.length && tmp >= (words[i].length() + ind - wi); ind = i, i++) {
-                tmp -= words[i].length();
-            }
-            StringBuilder dummy = new StringBuilder();
-            int cnt = (ind - wi) == 0 ? tmp : tmp / (ind - wi);
-            int storm = (ind - wi) == 0 ? 0 : tmp % (ind - wi);
-            boolean isSingle = true;
-            for (int i = wi; i < ind; i++, isSingle = false) {
-                dummy.append(words[i]);
-                for (int j = 1; j <= (storm == 0 ? cnt : cnt + 1); j++) {
-                    dummy.append(" ");
-                }
-                if (storm != 0) storm--;
-            }
-            dummy.append(words[ind]);
-            if (isSingle) {
-                for (int i = 1; i <= tmp; i++) {
-                    dummy.append(" ");
-                }
-            }
-            ans.add(dummy.toString());
-            fullJustify(ans, words, ind + 1, maxWidth);
         }
     }
 
