@@ -47,6 +47,7 @@
 | 41| [First Missing Positive](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question41.java) | `Array` | Hard |
 | 42| [Trapping Rain Water](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question42.java) | `Array` `Two Pointers` `Stack` | Hard |
 | 43| [Multiply Strings](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/math/Question43.java) | `Math` `String` | Medium |
+| 44| [Wildcard Matching](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/string/Question44.java) | `String` `Dynamic Programing` | Medium |
 | 45| [Jump Game II](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question45.java) | `Array` `Greedy` | Medium |
 | 46| [Permutation](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question46.java) | `Backtracking` | Medium |
 | 47| [Permutation II](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question47.java) | `Backtracking` `Array` | Medium |
@@ -63,6 +64,7 @@
 | 60| [Permutation Sequence](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question60.java) | `Backtracking` `Math` | Medium |
 | 61| [Rotate List](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/linkedlist/Question61.java) | `LinkedList` `Two Pointers` | Medium |
 | 66| [Plus One](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/math/Question66.java) | `Array` `Math` | Easy |
+| 68| [Text Justification](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/string/Question68.java) | `String` | Hard |
 | 71| [Simplify Path](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/stack/Question71.java) | `String` `Stack` | Medium |
 | 72| [Edit Distance](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dp/Question72.java) | `String` `Dynamic Programming` | Hard |
 | 73| [Set Matrix Zeroes](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question73.java) | `Array` | Medium |
@@ -113,3 +115,4 @@
 |738| [Monotone Increasing Digits](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/greedy/Question739.java) | `Greedy` | Medium |
 |739| [Daily Temperatures](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/stack/Question739.java) | `Hash Table` `Array` | Medium |
 |766| [Toeplitz Matrix](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question766.java) | `Array` | Easy |
+|804| [Unique Morse Code Words](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/string/Question804.java) | `String` | Easy |
