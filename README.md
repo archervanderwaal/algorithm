@@ -109,6 +109,7 @@
 |437| [Path Sum II](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/dfs/Question437.java) | `Tree` | Easy |
 |461| [Hamming Distance](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question461.java) | `Bit manipulation` | Easy |
 |494| [Target Sum](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dp/Question494.java) | `Dynamic Programing` `DFS` | Medium |
+|530| [Minimum Absolute Difference in BST](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/tree/Question530.java) | `Binary Search Tree` | Easy |
 |693| [Binary Number with Alternating Bits](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question693.java)) | `Bit manipulation` | Easy |
 |724| [Find Pivot Index](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question724.java) | `Array` | Easy |
 |725| [Split Linked List in Parts](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/linkedlist/Question725.java) | `Linked List` | Medium |
