@@ -1,9 +1,6 @@
 package me.stormma.leetcode.array;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 /**
  * 难度系数: 三星
@@ -57,8 +54,34 @@ public class Question315 {
         }
     }
 
+    /**
+     * 树状数组 + 排序统计
+     */
     static class Solution3 {
         public List<Integer> countSmaller(int[] nums) {
+            Set<Integer> set = new HashSet<>();
+            return null;
+        }
+    }
+
+    static class Solution4 {
+
+        static class Node {
+            int val;
+            int cnt;
+            int leftCnt;
+            Node left;
+            Node right;
+
+            public Node(int val, int cnt, int leftCnt) {
+                this.val = val;
+                this.cnt = cnt;
+                this.leftCnt = leftCnt;
+            }
+        }
+
+        public List<Integer> countSmaller(int[] nums) {
+            List<Integer> ans = new ArrayList<>();
             return null;
         }
     }
