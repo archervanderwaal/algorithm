@@ -36,24 +36,31 @@ public class Question315 {
             }
             return low;
         }
-        // 1 2 3 4 <- 5
-        // low = 0, high = 3 mid = 1  2 < 5
-        // low = 2, high = 3, mid = 2 3 < 5
-        // low = 3, high = 3, mid = 3, 4 < 5
-        // low = 4, high = 3则 return low;
+    }
 
-        // 2 3 4 5 <- 1
-        // low = 0, high = 3, mid = 1   3 > 1
-        // low = 0, high = 0, mid = 0,  2 > 1
-        // low = -1, high = 0;
+    /**
+     * 暴力算法
+     * 提交结果: 超时
+     */
+    static class Solution2 {
+        public List<Integer> countSmaller(int[] nums) {
+            List<Integer> ans = new ArrayList<>();
+            if (nums == null || nums.length == 0) return ans;
+            for (int i = 0; i < nums.length; i++) {
+                int cnt = 0;
+                for (int j = i + 1; j < nums.length; j++) {
+                    if (nums[j] < nums[i]) cnt++;
+                }
+                ans.add(cnt);
+            }
+            return ans;
+        }
+    }
 
-
-        // 5 2 2 2
-        // 2 2 2
-        // 0 0 0
-
-
-        // 2  <- 2
+    static class Solution3 {
+        public List<Integer> countSmaller(int[] nums) {
+            return null;
+        }
     }
 
     public static void main(String[] args) {
