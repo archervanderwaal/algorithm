@@ -18,6 +18,7 @@ public class Question2 {
                 cnt += (n / 5);
                 n /= 5;
             }
+            int i = 0;
             return cnt;
         }
     }
