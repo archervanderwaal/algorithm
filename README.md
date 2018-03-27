@@ -102,8 +102,8 @@
 |198| [House Robber](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/dp/Question198.java) | `Dynamic Programming` | Easy |
 |199| [Binary Tree Right Side View](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/dp/Question199.java) | `Tree` `DFS` `BFS` | Medium |
 |215| [Kth Largest Element in an Array](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/array/Question215.java) | `Divide and Conquer` `Heap` | Medium |
-|239| [Ugly Number](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/math/Question239.java) | `Math` | Easy |
 |242| [Valid Anagram](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/string/Question242.java) | `Hash Table` `Sort` | Easy |
+|263| [Ugly Number](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/math/Question263.java) | `Math` | Easy |
 |303| [Range Sum Query - Immutable](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/dp/Question303.java) | `Dynamic Programing` | Easy |
 |304| [Range Sum Query 2D - Immutable](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/dp/Question304.java) | `Dynamic Programing` | Medium |
 |307| [Range Sum Query - Mutable](https://github.com/StormMaybin/algorithm/tree/master/src/me/stormma/leetcode/binary_indexed_tree/Question307.java) | `Binary Indexed Tree` `Segment Tree` | Medium |

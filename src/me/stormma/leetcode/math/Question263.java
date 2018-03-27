@@ -6,7 +6,7 @@ package me.stormma.leetcode.math;
  * @author stormma
  * @date 2018/03/26
  */
-public class Question239 {
+public class Question263 {
     static class Solution {
         public boolean isUgly(int num) {
             if (num < 1) return false;
