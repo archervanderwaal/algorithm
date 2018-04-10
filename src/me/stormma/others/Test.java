@@ -1,5 +1,8 @@
 package me.stormma.others;
 
+import me.stormma.lintcode.Question1;
+import sun.reflect.Reflection;
+
 import java.lang.reflect.Field;
 
 /**
@@ -20,5 +23,7 @@ public class Test {
         Integer a  = 12, b = 13;
         swap(a, b);
         System.out.println(a + "-" + b);
+
+        System.out.println(Reflection.getCallerClass(-1));
     }
 }
