@@ -57,6 +57,7 @@
 | 50| [Pow(x, n)](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/math/Question50.java) | `Math` `Binary Search` | Medium |
 | 51| [N-Queens](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dfs/Question51.java) | `Backtracking` | Hard |
 | 52| [N-Queens II](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dfs/Question52.java) | `Backtracking` | Hard |
+| 53| [Maximum Subarray](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dp/Question53.java) | `Dynamic Programing` `Array` `Divide and Conquer` | Easy |
 | 54| [Spiral Matrix](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question54.java) | `Array` | Medium |
 | 55| [Jump Game](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question55.java) | `Array` `Greedy` | Medium |
 | 56| [Merge Intervals](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question56.java) | `Array` `Sort` | Medium |

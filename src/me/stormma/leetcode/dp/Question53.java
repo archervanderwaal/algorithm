@@ -1,5 +1,7 @@
 package me.stormma.leetcode.dp;
 
+import javafx.css.Match;
+
 /**
  * leetcode 53最大子数组和问题 <a href="https://leetcode.com/problems/maximum-subarray/description/">题目链接</a>
  * @author stormma
@@ -9,11 +11,12 @@ public class Question53 {
 
     static class Solution {
         public static int maxSubArray(int[] nums) {
-            int sum = 0;
-            sum = nums[0];
+            int currentSum = nums[0], max = currentSum;
             for (int i = 1; i < nums.length; i++) {
+                currentSum = Math.max(currentSum + nums[i], nums[i]);
+                if (max < currentSum) max = currentSum;
             }
-            return sum;
+            return max;
         }
     }
 
