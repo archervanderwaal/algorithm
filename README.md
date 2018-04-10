@@ -71,7 +71,10 @@
 | 64| [Minimum Path Sum](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dp/Question64.java) | `Dynamic Programing` `Array` | Medium |
 | 65| [Valid Number](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/string/Question64.java) | `Math` `String` | Hard |
 | 66| [Plus One](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/math/Question66.java) | `Array` `Math` | Easy |
+| 67| [Add Binary](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/math/Question67.java) | `Math` `String` | Easy |
 | 68| [Text Justification](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/string/Question68.java) | `String` | Hard |
+| 69| [Sqrt(x)](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/binary_search/Question69.java) | `Math` `Binary Search` | Easy |
+| 70| [Climbing Stairs](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dp/Question70.java) | `Dynamic Programing` | Easy |
 | 71| [Simplify Path](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/stack/Question71.java) | `String` `Stack` | Medium |
 | 72| [Edit Distance](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dp/Question72.java) | `String` `Dynamic Programming` | Hard |
 | 73| [Set Matrix Zeroes](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question73.java) | `Array` | Medium |
