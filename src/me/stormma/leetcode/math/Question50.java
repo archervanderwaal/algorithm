@@ -7,7 +7,6 @@ package me.stormma.leetcode.math;
  * @date 2017/10/27
  */
 public class Question50 {
-
     static class Solution {
         public double myPow(double x, int n) {
             if(n == 0) {

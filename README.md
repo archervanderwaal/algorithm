@@ -54,6 +54,7 @@
 | 47| [Permutation II](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question47.java) | `Backtracking` `Array` | Medium |
 | 48| [Rotate Image](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question48.java) | `Array` | Medium |
 | 49| [Group Anagrams](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/hash_table/Question49.java) | `Hash Table` `String` | Medium |
+| 50| [Pow(x, n)](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/math/Question50.java) | `Math` `Binary Search` | Medium |
 | 51| [N-Queens](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dfs/Question51.java) | `Backtracking` | Hard |
 | 52| [N-Queens II](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dfs/Question52.java) | `Backtracking` | Hard |
 | 54| [Spiral Matrix](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question54.java) | `Array` | Medium |
