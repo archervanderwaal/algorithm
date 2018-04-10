@@ -7,7 +7,6 @@ package me.stormma.leetcode.string;
  * @date 2017/11/03
  */
 public class Question38 {
-
     static class Solution {
         public String countAndSay(int n) {
             String str = "1";

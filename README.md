@@ -42,6 +42,7 @@
 | 35| [Search Insert Position](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/binary_search/Question35.java) | `Array` `Binary Search` | Easy |
 | 36| [Valid Sudoku](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/hash_table/Question36.java) | `Hash Table` | Medium |
 | 37| [Sudoku Solver](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dfs/Question37.java) | `Hash Table` `Backtracking` | Hard |
+| 38| [Count and Say](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/string/Question38.java) | `String` | Easy |
 | 39| [Combination Sum](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question39.java) | `Array` `Backtracking` | Medium |
 | 40| [Combination Sum II](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dfs/Question40.java) | `Array` `Backtracking` | Medium |
 | 41| [First Missing Positive](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question41.java) | `Array` | Hard |
