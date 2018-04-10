@@ -66,6 +66,10 @@
 | 59| [Spiral Matrix II](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question59.java) | `Array` | Medium |
 | 60| [Permutation Sequence](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question60.java) | `Backtracking` `Math` | Medium |
 | 61| [Rotate List](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/linkedlist/Question61.java) | `LinkedList` `Two Pointers` | Medium |
+| 62| [Unique Paths](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dp/Question62.java) | `Dynamic Programing` `Array` | Medium |
+| 63| [Unique Paths II](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dp/Question63.java) | `Dynamic Programing` `Array` | Medium |
+| 64| [Minimum Path Sum](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dp/Question64.java) | `Dynamic Programing` `Array` | Medium |
+| 65| [Valid Number](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/string/Question64.java) | `Math` `String` | Hard |
 | 66| [Plus One](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/math/Question66.java) | `Array` `Math` | Easy |
 | 68| [Text Justification](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/string/Question68.java) | `String` | Hard |
 | 71| [Simplify Path](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/stack/Question71.java) | `String` `Stack` | Medium |
