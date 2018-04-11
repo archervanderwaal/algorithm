@@ -80,6 +80,7 @@
 | 73| [Set Matrix Zeroes](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question73.java) | `Array` | Medium |
 | 74| [Search a 2D Matrix](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question74.java) | `Array` `Binary Search` | Medium |
 | 75| [Sort Colors](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question75.java) | `Array` `Two Pointers` `Sort` | Medium |
+| 76| [Minimum Window Substring](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/string/Question75.java) | `String` `Hash Table` `Two Poniters` | Hard |
 | 77| [Combinations](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question77.java) | `Backtracking` | Medium |
 | 78| [Subsets](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question77.java) | `Backtracking` `Array` `Bit manipulation` | Medium
 | 79| [Word Search](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dfs/Question79.java) | `Array` `Backtracking` | Medium |
