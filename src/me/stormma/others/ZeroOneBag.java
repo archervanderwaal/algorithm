@@ -1,7 +1,5 @@
 package me.stormma.others;
 
-import java.util.Map;
-
 /**
  * @author stormma
  */
@@ -10,8 +8,6 @@ public class ZeroOneBag {
     static class Solution {
 
         private int search(int idx, int[] w, int[] v, int n, int s, int W, int[][] memo) {
-
-            // 已经没有物品搜索了
             if (idx >= n) {
                 return 0;
             }
@@ -19,12 +15,9 @@ public class ZeroOneBag {
             if (memo[idx][s] != -1) {
                 return memo[idx][s];
             }
-
-            // 如果装不下这件物品
             if (s + w[idx] > W) {
                 return memo[idx][s] = search(idx + 1, w, v, n, s, W, memo);
             }
-            // 否则我们直接返回拿idx这件物品和不拿这件物品的最大价值就行了!
             return memo[idx][s] = Math.max(search(idx + 1, w, v, n, s + w[idx], W, memo) + v[idx], search(idx + 1, w, v, n, s, W, memo));
         }
 
@@ -67,6 +60,19 @@ public class ZeroOneBag {
                 }
             }
             return dp[n][W];
+        }
+    }
+
+    static class Solution3 {
+        public int solve(int[] w, int[] v, int W) {
+            int n = v.length;
+            int[] dp = new int[W + 1];
+            for (int i = 1; i <= n; i++) {
+                for (int j = W; j >= w[i]; j--) {
+                    dp[j] = Math.max(dp[j], dp[j - w[i]] + v[i]);
+                }
+            }
+            return dp[W];
         }
     }
 
