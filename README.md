@@ -106,6 +106,7 @@
 |121| [Best Time to Buy and Sell Stock](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dp/Question121.java) | `Array` `Dynamic-Programming` | Easy |
 |125| [Valid Palindrome](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/string/Question125.java) | `String` `Two Pointers` | Easy |
 |130| [Surrounded Regions](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dfs/Question130.java) | `DFS` `BFS` `Union-Find` | Medium |
+|139| [Word Break](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dp/Question138.java) | `Dynamic Programing` | Medium |
 |136| [Single Number](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question136.java) | `Bit manipulation` | Easy |
 |148| [Sort List](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/linkedlist/Question148.java) | `Linked List` `Sort` | Medium |
 |155| [Min Stack](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/stack/Question155.java) | `Stack` `Design` | Easy |
