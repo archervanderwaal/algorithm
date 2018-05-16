@@ -104,6 +104,7 @@
 |119| [Pascal's Triangle II](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question119.java) | `Array` | Easy |
 |120| [Triangle](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question120.java) | `Array` `Dynamic Programing` | Medium |
 |121| [Best Time to Buy and Sell Stock](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dp/Question121.java) | `Array` `Dynamic-Programming` | Easy |
+|122| [Best Time to Buy and Sell Stock II](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dp/Question122.java) | `Array` `Greedy` | Easy |
 |125| [Valid Palindrome](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/string/Question125.java) | `String` `Two Pointers` | Easy |
 |130| [Surrounded Regions](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dfs/Question130.java) | `DFS` `BFS` `Union-Find` | Medium |
 |139| [Word Break](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dp/Question138.java) | `Dynamic Programing` | Medium |
