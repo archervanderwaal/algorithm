@@ -26,7 +26,8 @@ public class BinarySearch {
     }
 
     /**
-     * 返回target出现的最后一个文职的下一个位置, 如果target不在数组中, 则返回应该插入的位置
+     * 返回target出现的最后一个位置的下一个位置, 如果target不在数组中, 则返回应该插入的位置
+     * 即: numbers[i] > target, min(i)
      * @param numbers
      * @param target
      * @return
