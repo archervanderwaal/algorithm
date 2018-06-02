@@ -1,5 +1,8 @@
 package me.stormma.others;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * @author stormma stormmaybin@gmail.com
  */
@@ -50,5 +53,12 @@ public class BinarySearch {
         int[] numbers = {1, 2, 3, 3, 4, 5, 6};
         System.out.println(lowerBound(numbers, 7));
         System.out.println(upperBound(numbers, 3));
+        String s = "1 2 3 # 0 ";
+        System.out.println(s.split(" ").length);
+        for (String ss : s.split(" ")) {
+            System.out.println(ss);
+        }
+        Queue<Integer> queue = new LinkedList<>();
+        queue.poll();
     }
 }
