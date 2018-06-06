@@ -91,6 +91,8 @@ public class Question1 {
         }
     }
 
+
+
     private int binarySearch(List<Integer> list, int target, boolean isLeft) {
         int low = 0, high = list.size() - 1;
         while (true) {
