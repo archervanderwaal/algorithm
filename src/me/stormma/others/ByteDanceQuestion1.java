@@ -9,6 +9,8 @@ import java.util.List;
  */
 public class ByteDanceQuestion1 {
 
+    private static int i = 0;
+
     /**
      * 1, 3, 6, 4, 2, 7   sum = 7, [3, 4] [7] [1, 6]
      * 返回数组中元素和等于sum的结果
@@ -31,7 +33,7 @@ public class ByteDanceQuestion1 {
      * @param numbers
      * @param sum
      */
-    public static void dfs(List<List<Integer>> ans, List<Integer> current, int startIndex, int[] numbers, int sum) {
+    private static void dfs(List<List<Integer>> ans, List<Integer> current, int startIndex, int[] numbers, int sum) {
         if (sum == 0) {
             ans.add(new ArrayList<>(current));
         }
@@ -43,7 +45,7 @@ public class ByteDanceQuestion1 {
     }
 
     public static void main(String[] args) {
-        int[] numbers = {1, 3, 6, 4, 2, 7};
+        int[] numbers = {1, 2, 3, 4, 5, 6};
         List<List<Integer>> ans = solve(numbers, 7);
         for (List<Integer> list : ans) {
             System.out.println(list);
@@ -51,7 +53,5 @@ public class ByteDanceQuestion1 {
     }
 }
 
-
-
-// 那么问题来了, 如果有重复元素呢? 怎么去去重呢.....
-//
+// ======================> 加强版
+// 如果一个元素可以选择多次, 那么结果会怎么样呢
