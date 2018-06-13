@@ -96,6 +96,12 @@ public class Question4 {
                 return findKth(a, aStart + k / 2, b, bStart, k - k / 2);
             }
         }
+
+        public static void main(String[] args) {
+            int[] a = {1, 2, 3};
+            int[] b = {2, 3, 4};
+            System.out.println(new Solution2().findKth(a, 0, b, 0, 2));
+        }
     }
 
     // 1 3

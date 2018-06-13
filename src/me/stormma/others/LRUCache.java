@@ -26,6 +26,9 @@ public class LRUCache<Key, Value> {
     private Entry tail;
 
     public LRUCache(int capacity) {
+        if (capacity <= 0) {
+            throw new IllegalArgumentException("Illegal argument capacity [" + capacity + "]" );
+        }
         this.capacity = capacity;
         map = new HashMap<>(this.capacity);
         head = new Entry(null, null);
@@ -118,5 +121,6 @@ public class LRUCache<Key, Value> {
         System.out.println(cache.get(1));
         System.out.println(cache.get(3));
         System.out.println(cache.get(4));
+        System.out.println(Integer.MAX_VALUE);
     }
 }
