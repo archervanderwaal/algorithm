@@ -5,6 +5,9 @@ import java.util.List;
 
 /**
  * Split Array into Fibonacci Sequence
+ *
+ * @brief 刷题心得:
+ * 1. 首先这道题目, 枚举所有case然后判断是否满足的情况, 如果在判断了所有的case都不满足之后, 此时我们的结果肯定是为空,
  * @author stormma stormmaybin@gmail.com
  */
 public class Question842 {
