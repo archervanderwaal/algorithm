@@ -1,38 +1,40 @@
 package me.stormma.leetcode.greedy;
 
-import java.util.Comparator;
-import java.util.Map;
-import java.util.PriorityQueue;
-import java.util.TreeMap;
+import java.util.*;
 
 public class Question767 {
 
-    static class Solution {
+    class Solution {
         public String reorganizeString(String S) {
-            String ans = "$";
-            Map<Character, Integer> cnt = new TreeMap<>();
+            if (S == null || S.length() == 0) return "";
+            Map<Character, Integer> cnt = new HashMap<>();
             for (char c : S.toCharArray()) {
                 cnt.put(c, cnt.getOrDefault(c, 0) + 1);
             }
-            PriorityQueue<Data> queue = new PriorityQueue<>(new Comparator<Data>() {
-                @Override
-                public int compare(Data o1, Data o2) {
-                    return o2.cnt - o1.cnt;
-                }
-            });
+            PriorityQueue<Data> queue = new PriorityQueue<>((data1, data2) -> data2.cnt - data1.cnt);
             for (Character key : cnt.keySet()) {
+                if (cnt.get(key) > ((1 + S.length()) >>> 1)) return "";
                 queue.add(new Data(key, cnt.get(key)));
             }
-            boolean flag = false;
+            StringBuilder stringBuilder = new StringBuilder();
             while (!queue.isEmpty()) {
-                Data data = queue.peek();
-                if (data.c == ans.charAt(ans.length() - 1)) {
-                    ;
+                Data first = queue.poll();
+                if (stringBuilder.length() == 0 || first.c != stringBuilder.charAt(stringBuilder.length() - 1)) {
+                    stringBuilder.append(first.c);
+                    if ((first.cnt = first.cnt - 1) > 0) {
+                        queue.add(first);
+                    }
                 } else {
-                    ans += data.c;
+                    if (queue.isEmpty()) return "";
+                    Data second = queue.poll();
+                    stringBuilder.append(second.c);
+                    if ((second.cnt = second.cnt - 1) > 0) {
+                        queue.add(second);
+                    }
+                    queue.add(first);
                 }
             }
-            return flag ? "" : ans;
+            return stringBuilder.toString();
         }
     }
 
