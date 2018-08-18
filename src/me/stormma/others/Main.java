@@ -1,32 +1,58 @@
 package me.stormma.others;
 
-import java.util.Scanner;
+import java.util.*;
 
-/**
- * @author stormma stormmaybin@gmail.com
- */
 public class Main {
+
+    private static int max = 0;
+
+    private static int tmp = 0;
 
     public static void main(String... args) {
         Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
-        while (n-- > 0) {
-            long x = in.nextLong();
-            if (x > 100) {
-                System.out.println(x - 10);
-            } else { // x <= 100
-                // f(100) = f(f(111)) = f(101) = 91
-                // f(99) = f(f(110)) = f(100) = 91
-                // f(98) = f(f(109)) = f(99) = 91
-                // f(1) = f(f(12)) = f(f(f(12+11)))
-                // f 100 + 11 = 111 = f(f(111)) = f(101)
-                // f 99 + 11 = 110 = f(f(110)) = f(100)
-                // f(x) = f(f(x+11)) =>
-                // f(90) = f(f(90 + 11)) = f(f(101)) = f(91) = f(f(91 + 11)) = f(f(102)) = f(f(92))
-
-                // f(80) = f(f(91)) =
-                System.out.println(91);
+        String line1 = in.nextLine();
+        int m = Integer.parseInt(line1.split(",")[0]), n = Integer.parseInt(line1.split(",")[1]);
+        int[][] map = new int[m][n];
+        for (int i = 0; i < m; i++) {
+            String dump = in.nextLine();
+            for (int j = 0; j < n; j++) {
+                map[i][j] = Integer.parseInt(dump.split(",")[j]);
             }
         }
+        int ans = 0;
+        boolean[][] mark = new boolean[m][n];
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (map[i][j] == 1) {
+                    dfs(map, i, j, m, n);
+                    max = Math.max(max, tmp);
+                    tmp = 0;
+                    ans++;
+                }
+            }
+        }
+        System.out.println(ans + "," + max);
+    }
+
+    private static void dfs(int[][] map, int i, int j, int m, int n) {
+        if (i < 0 || i > m - 1 || j < 0 || j > n - 1 || map[i][j] == 0) return;
+        // 上下左右斜上斜下
+        tmp++;
+        // 上
+        dfs(map, i - 1, j, m, n);
+        // 下
+        dfs(map, i + 1, j, m, n);
+        // 左
+        dfs(map, i, j - 1, m, n);
+        // 右
+        dfs(map, i, j + 1, m, n);
+        // 斜左上
+        dfs(map, i - 1, j - 1, m, n);
+        // 斜右下
+        dfs(map, i + 1, j + 1, m, n);
+        // 斜右上
+        dfs(map, i - 1, j + 1, m, n);
+        // 斜左下
+        dfs(map, i + 1, j - 1, m, n);
     }
 }
