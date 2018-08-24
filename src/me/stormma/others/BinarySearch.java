@@ -14,7 +14,7 @@ public class BinarySearch {
         // 采用[left, right)区间
         if (numbers == null || numbers.length == 0) return -1;
         int left = 0, right = numbers.length;
-        while (left < right) {
+        while (left < right) { // left == right跳出循环
             int mid = left + ((right - left) >>> 1);
             if (numbers[mid] >= target) {
                 right = mid;
