@@ -9,6 +9,9 @@ import java.util.Queue;
  */
 public class Question295 {
 
+    /**
+     * runtime time O(nlogn)
+     */
     static class MedianFinder {
 
         private Queue<Integer> smaller;

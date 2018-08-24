@@ -29,6 +29,7 @@ public class LRUCache<Key, Value> {
         if (capacity <= 0) {
             throw new IllegalArgumentException("Illegal argument capacity [" + capacity + "]" );
         }
+
         this.capacity = capacity;
         map = new HashMap<>(this.capacity);
         head = new Entry(null, null);
