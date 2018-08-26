@@ -7,7 +7,7 @@ package me.stormma.leetcode.math;
  * @date 2017/10/26
  */
 public class Question7 {
-    class Solution {
+    static class Solution {
         public int reverse(int x) {
             boolean isNegative = x < 0;
             if (isNegative) {
@@ -24,7 +24,4 @@ public class Question7 {
             return isNegative ? (0 - (int)l) : (int)l;
         }
     }
-
-
-
 }
