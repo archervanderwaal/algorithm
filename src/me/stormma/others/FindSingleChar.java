@@ -2,6 +2,13 @@ package me.stormma.others;
 
 public class FindSingleChar {
 
+
+    //依据题意，我们可以选取任意一个位置，
+    // 然后判断是不是满足仅出现一次（和左右相比较），
+    // 如果满足，那么即结果。如果并不满足，
+    // 那么我们可以以这个位置分成两半来重新查找
+    // （依据左右边字符的个数来判断）。
+
     /**
      * Input:
      * aabbccd
