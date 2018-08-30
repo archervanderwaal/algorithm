@@ -1,7 +1,5 @@
 package me.stormma.others;
 
-import java.util.Arrays;
-
 /**
  * @author stormma stormmaybin@gmail.com
  */
@@ -41,7 +39,7 @@ public class FillWater {
     }
 
     public static void main(String[] args) {
-        int[] footstep = {2, 5, 1, 3, 1, 2, 1, 7, 7, 6};
+        int[] footstep = {5, 2, 3, 0,4};
         System.out.println(new FillWater().getResult(footstep));
     }
 }
