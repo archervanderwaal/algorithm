@@ -44,6 +44,11 @@ public class FindSingleChar {
     }
 
     public static void main(String[] args) {
+        System.out.println(Float.floatToIntBits(1.2f));
+        System.out.println(Float.MAX_VALUE);
+        System.out.println(Float.MIN_VALUE);
+        System.out.println(Integer.toBinaryString(1067030938));
+        System.out.println(Float.toHexString(1.2f));
         System.out.println(findSingleChar("aabbccdeeffgghhjj".toCharArray(), 0, "aabbccdeeffgghhjj".length() - 1));
     }
 }
