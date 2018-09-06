@@ -18,5 +18,4 @@ public class BitSetTest {
         }
         System.out.println(bitSet);
     }
-
 }
