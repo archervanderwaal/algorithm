@@ -2,6 +2,7 @@ package me.stormma.leetcode.array;
 
 /**
  * 896. Monotonic Array
+ *
  * @author archer archer.vanderwaal@gmail.com
  */
 public class Question896 {
@@ -31,4 +32,20 @@ public class Question896 {
             return true;
         }
     }
+
+    static class Solution2 {
+        public boolean isMonotonic(int[] A) {
+            int trend = 0;
+            for (int i = 1; i < A.length; i++) {
+                if (A[i - 1] == A[i]) continue;
+                if (A[i - 1] < A[i] && trend < 0 ||
+                        A[i - 1] > A[i] && trend > 0)
+                    return false;
+                trend = A[i] - A[i - 1];
+            }
+            return true;
+        }
+    }
+
+
 }
