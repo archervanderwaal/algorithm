@@ -129,6 +129,7 @@
 |494| [Target Sum](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dp/Question494.java) | `Dynamic Programing` `DFS` | Medium |
 |530| [Minimum Absolute Difference in BST](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/tree/Question530.java) | `Binary Search Tree` | Easy |
 |530| [K-diff Pairs in an Array](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question532.java) | `Array` `Two Pointers` | Easy |
+|554| [Brick Wall](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/map/Question554.java) | `Hash Table` | Medium |
 |693| [Binary Number with Alternating Bits](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/bit_manipulation/Question693.java)) | `Bit manipulation` | Easy |
 |724| [Find Pivot Index](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question724.java) | `Array` | Easy |
 |725| [Split Linked List in Parts](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/linkedlist/Question725.java) | `Linked List` | Medium |
