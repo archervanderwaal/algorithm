@@ -139,7 +139,7 @@
 |766| [Toeplitz Matrix](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question766.java) | `Array` | Easy |
 |767| [Reorganize String](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/greedy/Question767.java) | `String` `Heap` `Greedy` `Sort` | Medium |
 |804| [Unique Morse Code Words](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/string/Question804.java) | `String` | Easy |
-|842| [Split Array into Fibonacci Sequence(https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dfs/Question842.java) | `String` `Backtracking` `Greedy` | Medium |
+|842| [Split Array into Fibonacci Sequence](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/dfs/Question842.java) | `String` `Backtracking` `Greedy` | Medium |
 |844| [Backspace String Compare](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/stack/Question844.java) | `Stack` `Two Pointers` | Easy |
 |896| [Monotonic Array](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/array/Question896.java) | `Array` | Easy |
 |897| [Increasing Binary Search Tree](https://github.com/StormMaybin/algorithm/blob/master/src/me/stormma/leetcode/tree/Question897.java) | `Binary Search Tree` `Depth-first Search`| Easy |
